@@ -1,0 +1,31 @@
+header{
+    background-color: #BBBBBB;/*Camia el color de fondo del header*/
+    padding: 20px 0;
+}
+.cajaNav{
+    
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;/*deja el contenido en linea una tras otra*/
+    margin: 0 0 0 15px;/*crea un espacion en todas direcciones*/
+    /*el primer 0 corresponde arriba*/
+    /*el segundo 0 corresponde a la derecha*/
+    /*el tercero 0 corresponde abajo*/
+    /*el cuarto 15px corresponde a la izquierda*/
+
+}
+nav a{
+    text-transform: uppercase;/*Cambia el texto a mayusculas*/
+    color: #000000;/*Cambia el color de la letra*/
+    font-weight: bold;/*Deja el texto en negritas*/
+    font-size: 22px;/*Aumenta el tamaño de letra*/
+    text-decoration: none;/*Elimina el subrayado del enlace*/
+}
