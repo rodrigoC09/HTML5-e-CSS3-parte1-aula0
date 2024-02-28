@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background-color: #BBBBBB;/*Camia el color de fondo del header*/
     padding: 20px 0;
@@ -162,6 +165,13 @@ td, th{
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
 }
 .imgDiferenciales{
     width: 60%;
