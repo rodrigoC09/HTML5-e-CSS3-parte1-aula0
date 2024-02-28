@@ -126,3 +126,43 @@ form label, form legend{
     transform: scale(1.2);
     
 }
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+/*Css para nuestra pagina inicial*/
+.banner{
+    width: 100%;
+
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;/*toma el tamaño de la fuente y lo multiplica x2 veces su tamaño*/
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utencilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.imgDiferenciales{
+    width: 60%;
+}
